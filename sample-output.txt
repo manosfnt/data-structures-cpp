@@ -1,0 +1,102 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Min heap constructed: 
+1 5 2 10 25 5 2 23 35 35 41 42 41 25 4 52 32 42 
+Duration: 1715100 nanoseconds!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Minimum element of heap is: 1
+Duration: 18100 nanoseconds!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Inserting 10 in the MinHeap:
+1 5 2 10 25 5 2 23 10 35 41 42 41 25 4 52 32 42 35 
+Duration: 36000 nanoseconds!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Inserting 100 in the MinHeap:
+1 5 2 10 25 5 2 23 10 35 41 42 41 25 4 52 32 42 35 100 
+Duration: 280900 nanoseconds!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Inserting 1 in the MinHeap:
+1 1 2 10 5 5 2 23 10 25 41 42 41 25 4 52 32 42 35 100 35 
+Duration: 10400 nanoseconds!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Max heap constructed: 
+52 42 42 41 35 41 25 32 35 1 25 2 5 4 2 23 5 10 
+Duration: 292000 nanoseconds!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Graph constructed: 
+Vertex 2->[destination 3 ,weight 6]->[destination 4 ,weight 17]
+Vertex 3->[destination 2 ,weight 6]->[destination 4 ,weight 1]
+Vertex 4->[destination 2 ,weight 17]->[destination 3 ,weight 1]
+Vertex 5->[destination 9 ,weight 2]
+Vertex 8->[destination 9 ,weight 6]
+Vertex 9->[destination 8 ,weight 6]->[destination 5 ,weight 2]
+Duration: 929900 nanoseconds!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Inserting[100.200.2]
+Vertex 2->[destination 3 ,weight 6]->[destination 4 ,weight 17]
+Vertex 3->[destination 2 ,weight 6]->[destination 4 ,weight 1]
+Vertex 4->[destination 2 ,weight 17]->[destination 3 ,weight 1]
+Vertex 5->[destination 9 ,weight 2]
+Vertex 8->[destination 9 ,weight 6]
+Vertex 9->[destination 8 ,weight 6]->[destination 5 ,weight 2]
+Vertex 100->[destination 200 ,weight 2]
+Vertex 200->[destination 100 ,weight 2]
+Duration: 97500 nanoseconds!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Inserting[1000.2000.100]
+Vertex 2->[destination 3 ,weight 6]->[destination 4 ,weight 17]
+Vertex 3->[destination 2 ,weight 6]->[destination 4 ,weight 1]
+Vertex 4->[destination 2 ,weight 17]->[destination 3 ,weight 1]
+Vertex 5->[destination 9 ,weight 2]
+Vertex 8->[destination 9 ,weight 6]
+Vertex 9->[destination 8 ,weight 6]->[destination 5 ,weight 2]
+Vertex 100->[destination 200 ,weight 2]
+Vertex 200->[destination 100 ,weight 2]
+Vertex 1000->[destination 2000 ,weight 100]
+Vertex 2000->[destination 1000 ,weight 100]
+Duration: 87300 nanoseconds!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Shortest path[200<->2000]:-1
+Duration: 62200 nanoseconds!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Graph after deleting [200.2000]
+Vertex 2->[destination 3 ,weight 6]->[destination 4 ,weight 17]
+Vertex 3->[destination 2 ,weight 6]->[destination 4 ,weight 1]
+Vertex 4->[destination 2 ,weight 17]->[destination 3 ,weight 1]
+Vertex 5->[destination 9 ,weight 2]
+Vertex 8->[destination 9 ,weight 6]
+Vertex 9->[destination 8 ,weight 6]->[destination 5 ,weight 2]
+Vertex 100->[destination 200 ,weight 2]
+Vertex 200->[destination 100 ,weight 2]
+Vertex 1000->[destination 2000 ,weight 100]
+Vertex 2000->[destination 1000 ,weight 100]
+Duration: 86200 nanoseconds!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Hash array constructed: 
+Bucket0:10, 
+Bucket1:1, 41, 41, 
+Bucket2:52, 2, 2, 42, 32, 42, 
+Bucket3:23, 
+Bucket4:4, 
+Bucket5:35, 5, 25, 5, 25, 35, 
+Bucket6:
+Bucket7:
+Bucket8:
+Bucket9:
+Duration: 357500 nanoseconds!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Inserting 1 in the hashtable: 
+Bucket0:10, 
+Bucket1:1, 1, 41, 41, 
+Bucket2:52, 2, 2, 42, 32, 42, 
+Bucket3:23, 
+Bucket4:4, 
+Bucket5:35, 5, 25, 5, 25, 35, 
+Bucket6:
+Bucket7:
+Bucket8:
+Bucket9:
+Duration: 33400 nanoseconds!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Element 1 was found in hashtable
+Duration: 3900 nanoseconds!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
