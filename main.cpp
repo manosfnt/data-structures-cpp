@@ -2,7 +2,7 @@
 #include "MAXHEAP.h"
 #include "AVLTREE.h"
 #include "HASHTABLE.h"
-#include "Graph.h"
+#include "GRAPH.h"
 #include "FUCTIONS.h"
 #include <iostream>
 #include <fstream>
