@@ -28,4 +28,4 @@ The sample commands use:
 Compile all source files together:
 
 ```bash
-g++ -std=c++17 main.cpp MINHEAP.cpp MAXHEAP.cpp AVLTREE.cpp HASHTABLE.cpp List.cpp GRAPH.cpp -o data_structures.exe
+g++ -std=c++17 -I. src/main.cpp src/MINHEAP.cpp src/MAXHEAP.cpp src/AVLTREE.cpp src/HASHTABLE.cpp src/List.cpp src/GRAPH.cpp -o data_structures.exe
